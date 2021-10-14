@@ -1,3 +1,16 @@
+# This is a work in progress, come back later
+
+
+ToDo:
+- dynamically list all available modules using `python -c "help()" <<< "modules"`
+- hook into all of the non-built-in ones using `@importhook.on_import(each)`
+- replace all the methods on all those modules with wrapped methods that print when they've been called and what their arguments are
+- replace all the classes on all those modules with classes that have wrapped methods
+
+
+
+
+
 # What is this?
 
 A template for python packages
